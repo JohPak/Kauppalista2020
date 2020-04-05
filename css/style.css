@@ -1,0 +1,178 @@
+.auth-views {
+    background-color: #c6c4b8;
+    background-image: url(/img/food-1932466.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3d3a3a;
+    margin:0;
+  }
+  /* login window background box */
+  .login {
+    background-color: #95cee0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 350px;
+    height: 330px;
+    padding-top: 20px;
+    border: 13px outset #78b3c6;
+    border-radius: 20px;
+  }
+  .login h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .login img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+  }
+  .login-form {
+    margin:auto;
+    display: grid;
+    text-align: center;
+  }
+  .note-views {
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3d3a3a;
+    margin:0;
+    background-image: url(/img/2.png);
+    background-size: 30%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  .topbanner {
+    background-color: #8ac3d6;
+    padding:5px;
+    display: block;
+    width: 100%;
+    border-bottom: 13px outset #78b3c6;
+    margin-bottom: 15px;
+  }
+  /* Tervetuloa *käyttäjänimi* */
+  .topbanner p {
+    display: inline;
+  }
+  .topbanner h2 {
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  /* logout button */
+  .topbanner button { 
+    align-items: right;
+    float: right;
+    margin-top:-32px
+  }
+  button {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #494949;
+    border: 2px solid #494949;
+    transition: all 0.2s ease 0s;
+    height: 30px;
+    width: 120px;
+    padding:0;
+  }
+  button:hover, .delete_div.button:hover {
+    background: #fcca67;
+    border-color: #fcca67;
+    transition: all 0.2s ease 0s;
+  }
+  form {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .delete {
+    float: right;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: -5px;
+  }
+
+  input {
+    height: 30px;
+    width:150px;
+    margin-right: 10px;
+    margin-left: 5px;
+
+  }
+  /* kauppalistat div */
+  .rowline {
+    background-color: #e4e3df;
+    padding-left: 15px;
+    margin-left: 15px;
+    padding-top: 2px;
+    margin-top:5px;
+    height: 35px;
+    max-width: 500px;
+  }
+
+  .rowline P {
+    line-height: normal;
+    margin-top:7px;
+  }
+  .rowline:hover {
+    background-color: #c9f2ff;
+  }
+  /* poista tuote -nappi*/
+  .rowline button {
+    align-items: right;
+    float: right;
+    margin-top:-40px
+  }
+  /* tuotteiden lisäyslomake */
+  label {
+    display: inline-block;
+    width: 100px;
+    line-height: 2.2em;
+    margin-left: 15px;
+    color:#e4e3df;
+  }
+    /* tuotelistaus */
+    .rowline-product {
+      background-color: #e4e3df;
+      padding-left: 15px;
+      margin-left: 15px;
+      padding-top: 2px;
+      margin-top:5px;
+      /*height: 35px;*/
+      max-width: 500px;
+      height: 100px;
+      overflow: hidden;
+  }
+  /* tuotekuvat */
+  .product-image img {
+    max-width:130px;
+    max-height: 90px;
+    vertical-align: middle;
+  }
+  /* kuvan sisältävä div */
+  .product-image {
+    float: left;
+  }
+/* tuotteen tiedot tuotelistauksessa */
+  .product-information {
+    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
+    position: absolute;
+}
+/* linkki jolla pääsee tuotelistasta takaisin kauppalistoille*/
+.back-link, .shoppinglist-link {
+  text-decoration: none;
+  color: #3d3a3a;
+
+}
+.product-qty {
+  font-weight: bold;  
+}
